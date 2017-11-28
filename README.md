@@ -9,3 +9,8 @@ Aqui foi definido que todo arquivo maior que <strong>5MB</strong> deve ser feito
 Como único pré-requisito você deverá editar o arquivo config.php
 E adicionar as suas <strong>ACCESS_KEY</strong>, <strong>SECRET_ACCESS_KEY</strong> e <strong>Bucket</strong> ou você pode configurar uma role para isso, para
 que consiga inicializar uma instância do S3 e utilizar os recursos contidos.
+
+Após é necessário efetuar a instalação do SDK do PHP com o composer.
+Como os arquivos <strong>composer.json</strong> e <strong>composer.lock</strong> já estão criados basta utilizar o composer para instalar.
+
+$ composer install 
