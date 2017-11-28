@@ -7,7 +7,7 @@ ou quando realizar o <strong>Upload</strong> diretamente ao bucket pelo putObjec
 Aqui foi definido que todo arquivo maior que <strong>5MB</strong> deve ser feito o Multipart Upload
 
 Você deverá <strong>criar uma pasta</strong> chamada <i>"files"</i> <strong>no mesmo nível do diretório</strong> <i>"app"</i> para que seja gerado um arquivo
-temporario antes do envio ao S3, o mesmo é escluído após o processo
+temporario antes do envio ao S3, o mesmo é excluído após o processo
 
 Como pré-requisito você deverá editar o arquivo config.php
 E adicionar as suas <strong>ACCESS_KEY</strong>, <strong>SECRET_ACCESS_KEY</strong> e <strong>BUCKET</strong> ou você pode configurar uma role para isso, para
