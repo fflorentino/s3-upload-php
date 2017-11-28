@@ -29,11 +29,9 @@ use Aws\S3\Upload;
 
     //Check the file size to decide whether 
     //to use common upload or multipart-upload 
-    if($_FILES['file']['size'] > 500000){
-    echo 'O arquivo e maior que 500KB ';
+    if($_FILES['file']['size'] > 5000000){
     $filesize = '0';
     }else{
-        echo 'O arquivo e menor que 500KB ';
         $filesize = '1';
     }
 
@@ -97,7 +95,6 @@ use Aws\S3\Upload;
              
                 // Move the file
                 move_uploaded_file($tmp_name, $tmp_file_path);
-                var_dump($tmp_file_path);
 
                 //Put Object on S3 Bucket
                 try {
