@@ -4,7 +4,6 @@ use Aws\S3\S3Client;
 use Aws\S3\Exception\S3Exception;
 use Aws\s3\MultipartUpload;
 use Aws\S3\MultipartUploadException;
-use Aws\S3\Upload;
 
 	require '../vendor/autoload.php';
 
